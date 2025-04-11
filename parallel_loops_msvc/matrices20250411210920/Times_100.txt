@@ -1,0 +1,16 @@
+Multiplication times for matrices 100x100
+
+Type	| Thr	| Time [s]	| Diff [s]	| Verdict
+Seq	| 1	| 0.0033638	| -		| -
+ParL1	| 2	| 0.0029388	| 0.0004250	| faster
+ParL2	| 2	| 0.0033010	| 0.0000628	| faster
+ParL3	| 2	| 0.0037008	| -0.0003370	| slower
+ParL1	| 4	| 0.0031989	| 0.0001649	| faster
+ParL2	| 4	| 0.0028886	| 0.0004752	| faster
+ParL3	| 4	| 0.0033331	| 0.0000307	| faster
+ParL1	| 8	| 0.0029478	| 0.0004160	| faster
+ParL2	| 8	| 0.0030578	| 0.0003060	| faster
+ParL3	| 8	| 0.0029618	| 0.0004020	| faster
+ParL1	| 16	| 0.0032876	| 0.0000762	| faster
+ParL2	| 16	| 0.0028910	| 0.0004728	| faster
+ParL3	| 16	| 0.0031740	| 0.0001898	| faster

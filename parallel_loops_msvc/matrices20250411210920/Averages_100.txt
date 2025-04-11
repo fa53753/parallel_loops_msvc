@@ -1,0 +1,5 @@
+Averages for matrices 100x100:
+Loop	| Time
+#1	| 0.0030933
+#2	| 0.0030346
+#3	| 0.0032924

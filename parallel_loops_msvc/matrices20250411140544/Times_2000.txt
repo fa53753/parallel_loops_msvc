@@ -1,0 +1,16 @@
+Multiplication times for matrices 2000x2000
+
+Type	| Thr	| Time [s]	| Diff [s]	| Verdict
+Seq	| 1	| 24.1381580	| -		| -
+ParL1	| 2	| 15.5629023	| 8.5752557	| faster
+ParL2	| 2	| 15.8223945	| 8.3157635	| faster
+ParL3	| 2	| 15.4535551	| 8.6846029	| faster
+ParL1	| 4	| 15.8593487	| 8.2788093	| faster
+ParL2	| 4	| 15.4260018	| 8.7121562	| faster
+ParL3	| 4	| 15.9054009	| 8.2327571	| faster
+ParL1	| 8	| 16.0139937	| 8.1241643	| faster
+ParL2	| 8	| 16.1196808	| 8.0184772	| faster
+ParL3	| 8	| 15.8125692	| 8.3255888	| faster
+ParL1	| 16	| 15.7159314	| 8.4222266	| faster
+ParL2	| 16	| 16.0529873	| 8.0851707	| faster
+ParL3	| 16	| 15.6852619	| 8.4528961	| faster

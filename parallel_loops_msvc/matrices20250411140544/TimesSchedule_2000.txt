@@ -1,0 +1,15 @@
+Multiplication times for matrices 2000x2000parallel on 3rd loop
+
+Type	| Chunk	| Thr	| Time [s]
+static	| 50	| 2	| 15.5557063
+dynamic	| 50	| 2	| 15.7716776
+guided	| 50	| 2	| 16.7611038
+static	| 50	| 4	| 15.5356209
+dynamic	| 50	| 4	| 15.7602826
+guided	| 50	| 4	| 16.5013600
+static	| 50	| 8	| 16.0034724
+dynamic	| 50	| 8	| 16.1578200
+guided	| 50	| 8	| 16.6052326
+static	| 50	| 16	| 15.5440438
+dynamic	| 50	| 16	| 15.9746979
+guided	| 50	| 16	| 16.7115287

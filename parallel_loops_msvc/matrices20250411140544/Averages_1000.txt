@@ -1,0 +1,5 @@
+Averages for matrices 1000x1000:
+Loop	| Time
+#1	| 1.7103784
+#2	| 1.7089310
+#3	| 1.7059424

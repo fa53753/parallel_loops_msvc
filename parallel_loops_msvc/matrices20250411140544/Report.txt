@@ -1,0 +1,146 @@
+###################
+### Preparation ###
+###################
+Using MSVC, version: 1942
+  Generated matrix (100x100) in file 'matrices20250411140544\A_100.txt'.
+  Generated matrix (100x100) in file 'matrices20250411140544\B_100.txt'.
+  Generated matrix (500x500) in file 'matrices20250411140544\A_500.txt'.
+  Generated matrix (500x500) in file 'matrices20250411140544\B_500.txt'.
+  Generated matrix (1000x1000) in file 'matrices20250411140544\A_1000.txt'.
+  Generated matrix (1000x1000) in file 'matrices20250411140544\B_1000.txt'.
+  Generated matrix (2000x2000) in file 'matrices20250411140544\A_2000.txt'.
+  Generated matrix (2000x2000) in file 'matrices20250411140544\B_2000.txt'.
+
+
+###################
+###     100     ###
+###################
+### Comparing sequential and parallel reading of matrices 100x100 ###
+  Sequential reading matrices took 0.0359438s.
+  Parallel reading matrices took 0.78838s.   [slower than sequential (-0.752437s)]
+
+### Comparing sequential and parallel multiplication of matrices 100x100 ###
+  Sequential multiplying matrices took 0.0026988s.
+  Parallel multiplying matrices (1st loop) with 2 threads took 0.0016672s.   [faster than sequential (0.0010316s)]
+  Parallel multiplying matrices (2nd loop) with 2 threads took 0.0016535s.   [faster than sequential (0.0010453s)]
+  Parallel multiplying matrices (3rd loop) with 2 threads took 0.0016480s.   [faster than sequential (0.0010508s)]
+  Parallel multiplying matrices (1st loop) with 4 threads took 0.0024044s.   [faster than sequential (0.0002944s)]
+  Parallel multiplying matrices (2nd loop) with 4 threads took 0.0017933s.   [faster than sequential (0.0009055s)]
+  Parallel multiplying matrices (3rd loop) with 4 threads took 0.0019386s.   [faster than sequential (0.0007602s)]
+  Parallel multiplying matrices (1st loop) with 8 threads took 0.0016653s.   [faster than sequential (0.0010335s)]
+  Parallel multiplying matrices (2nd loop) with 8 threads took 0.0017094s.   [faster than sequential (0.0009894s)]
+  Parallel multiplying matrices (3rd loop) with 8 threads took 0.0020320s.   [faster than sequential (0.0006668s)]
+  Parallel multiplying matrices (1st loop) with 16 threads took 0.0017013s.   [faster than sequential (0.0009975s)]
+  Parallel multiplying matrices (2nd loop) with 16 threads took 0.0016010s.   [faster than sequential (0.0010978s)]
+  Parallel multiplying matrices (3rd loop) with 16 threads took 0.0016768s.   [faster than sequential (0.0010220s)]
+  Times saved in file 'matrices20250411140544\Times_100.txt'.
+  Averages:: Loop #1: 0.0018595s; Loop #2: 0.0016893s; Loop #3: 0.0018238s;
+Best for 100x100: 2nd loop
+
+###################
+###     500     ###
+###################
+### Comparing sequential and parallel reading of matrices 500x500 ###
+  Sequential reading matrices took 0.8549979s.
+  Parallel reading matrices took 1.4845356s.   [slower than sequential (-0.6295377s)]
+
+### Comparing sequential and parallel multiplication of matrices 500x500 ###
+  Sequential multiplying matrices took 0.3393834s.
+  Parallel multiplying matrices (1st loop) with 2 threads took 0.1980781s.   [faster than sequential (0.1413053s)]
+  Parallel multiplying matrices (2nd loop) with 2 threads took 0.2039478s.   [faster than sequential (0.1354356s)]
+  Parallel multiplying matrices (3rd loop) with 2 threads took 0.2007813s.   [faster than sequential (0.1386021s)]
+  Parallel multiplying matrices (1st loop) with 4 threads took 0.2000477s.   [faster than sequential (0.1393357s)]
+  Parallel multiplying matrices (2nd loop) with 4 threads took 0.1973629s.   [faster than sequential (0.1420205s)]
+  Parallel multiplying matrices (3rd loop) with 4 threads took 0.2013742s.   [faster than sequential (0.1380092s)]
+  Parallel multiplying matrices (1st loop) with 8 threads took 0.1973786s.   [faster than sequential (0.1420048s)]
+  Parallel multiplying matrices (2nd loop) with 8 threads took 0.1966991s.   [faster than sequential (0.1426843s)]
+  Parallel multiplying matrices (3rd loop) with 8 threads took 0.1985655s.   [faster than sequential (0.1408179s)]
+  Parallel multiplying matrices (1st loop) with 16 threads took 0.1996901s.   [faster than sequential (0.1396933s)]
+  Parallel multiplying matrices (2nd loop) with 16 threads took 0.1971988s.   [faster than sequential (0.1421846s)]
+  Parallel multiplying matrices (3rd loop) with 16 threads took 0.1984306s.   [faster than sequential (0.1409528s)]
+  Times saved in file 'matrices20250411140544\Times_500.txt'.
+  Averages:: Loop #1: 0.1987986s; Loop #2: 0.1988022s; Loop #3: 0.1997879s;
+Best for 500x500: 1st loop
+
+###################
+###     1000    ###
+###################
+### Comparing sequential and parallel reading of matrices 1000x1000 ###
+  Sequential reading matrices took 2.9595663s.
+  Parallel reading matrices took 3.6932277s.   [slower than sequential (-0.7336614s)]
+
+### Comparing sequential and parallel multiplication of matrices 1000x1000 ###
+  Sequential multiplying matrices took 2.7118057s.
+  Parallel multiplying matrices (1st loop) with 2 threads took 1.7202044s.   [faster than sequential (0.9916013s)]
+  Parallel multiplying matrices (2nd loop) with 2 threads took 1.7039357s.   [faster than sequential (1.0078700s)]
+  Parallel multiplying matrices (3rd loop) with 2 threads took 1.7095621s.   [faster than sequential (1.0022436s)]
+  Parallel multiplying matrices (1st loop) with 4 threads took 1.6933566s.   [faster than sequential (1.0184491s)]
+  Parallel multiplying matrices (2nd loop) with 4 threads took 1.6993360s.   [faster than sequential (1.0124697s)]
+  Parallel multiplying matrices (3rd loop) with 4 threads took 1.6920225s.   [faster than sequential (1.0197832s)]
+  Parallel multiplying matrices (1st loop) with 8 threads took 1.6978974s.   [faster than sequential (1.0139083s)]
+  Parallel multiplying matrices (2nd loop) with 8 threads took 1.6978846s.   [faster than sequential (1.0139211s)]
+  Parallel multiplying matrices (3rd loop) with 8 threads took 1.7050313s.   [faster than sequential (1.0067744s)]
+  Parallel multiplying matrices (1st loop) with 16 threads took 1.7300550s.   [faster than sequential (0.9817507s)]
+  Parallel multiplying matrices (2nd loop) with 16 threads took 1.7345678s.   [faster than sequential (0.9772379s)]
+  Parallel multiplying matrices (3rd loop) with 16 threads took 1.7171537s.   [faster than sequential (0.9946520s)]
+  Times saved in file 'matrices20250411140544\Times_1000.txt'.
+  Averages:: Loop #1: 1.7103784s; Loop #2: 1.7089310s; Loop #3: 1.7059424s;
+Best for 1000x1000: 3rd loop
+
+###################
+###     2000    ###
+###################
+### Comparing sequential and parallel reading of matrices 2000x2000 ###
+  Sequential reading matrices took 11.9189988s.
+  Parallel reading matrices took 12.5312395s.   [slower than sequential (-0.6122407s)]
+
+### Comparing sequential and parallel multiplication of matrices 2000x2000 ###
+  Sequential multiplying matrices took 24.1381580s.
+  Parallel multiplying matrices (1st loop) with 2 threads took 15.5629023s.   [faster than sequential (8.5752557s)]
+  Parallel multiplying matrices (2nd loop) with 2 threads took 15.8223945s.   [faster than sequential (8.3157635s)]
+  Parallel multiplying matrices (3rd loop) with 2 threads took 15.4535551s.   [faster than sequential (8.6846029s)]
+  Parallel multiplying matrices (1st loop) with 4 threads took 15.8593487s.   [faster than sequential (8.2788093s)]
+  Parallel multiplying matrices (2nd loop) with 4 threads took 15.4260018s.   [faster than sequential (8.7121562s)]
+  Parallel multiplying matrices (3rd loop) with 4 threads took 15.9054009s.   [faster than sequential (8.2327571s)]
+  Parallel multiplying matrices (1st loop) with 8 threads took 16.0139937s.   [faster than sequential (8.1241643s)]
+  Parallel multiplying matrices (2nd loop) with 8 threads took 16.1196808s.   [faster than sequential (8.0184772s)]
+  Parallel multiplying matrices (3rd loop) with 8 threads took 15.8125692s.   [faster than sequential (8.3255888s)]
+  Parallel multiplying matrices (1st loop) with 16 threads took 15.7159314s.   [faster than sequential (8.4222266s)]
+  Parallel multiplying matrices (2nd loop) with 16 threads took 16.0529873s.   [faster than sequential (8.0851707s)]
+  Parallel multiplying matrices (3rd loop) with 16 threads took 15.6852619s.   [faster than sequential (8.4528961s)]
+  Times saved in file 'matrices20250411140544\Times_2000.txt'.
+  Averages:: Loop #1: 15.7880440s; Loop #2: 15.8552661s; Loop #3: 15.7141968s;
+Best for 2000x2000: 3rd loop
+
+  Averages:: Loop #1: 4.4247701s; Loop #2: 4.4411721s; Loop #3: 4.4054377s;
+Best overall: 3rd loop
+
+###################
+###  Schedules  ###
+###################
+  Parallel (3rd loop) multiplying matrices 1000x1000 with schedule(static, 50) on 2 threads took 1.7230337s
+  Parallel (3rd loop) multiplying matrices 1000x1000 with schedule(dynamic, 50) on 2 threads took 1.7309468s
+  Parallel (3rd loop) multiplying matrices 1000x1000 with schedule(guided, 50) on 2 threads took 1.8386019s
+  Parallel (3rd loop) multiplying matrices 1000x1000 with schedule(static, 50) on 4 threads took 1.7248262s
+  Parallel (3rd loop) multiplying matrices 1000x1000 with schedule(dynamic, 50) on 4 threads took 1.7301784s
+  Parallel (3rd loop) multiplying matrices 1000x1000 with schedule(guided, 50) on 4 threads took 1.8099283s
+  Parallel (3rd loop) multiplying matrices 1000x1000 with schedule(static, 50) on 8 threads took 1.7469981s
+  Parallel (3rd loop) multiplying matrices 1000x1000 with schedule(dynamic, 50) on 8 threads took 1.7678156s
+  Parallel (3rd loop) multiplying matrices 1000x1000 with schedule(guided, 50) on 8 threads took 1.8335191s
+  Parallel (3rd loop) multiplying matrices 1000x1000 with schedule(static, 50) on 16 threads took 1.7224254s
+  Parallel (3rd loop) multiplying matrices 1000x1000 with schedule(dynamic, 50) on 16 threads took 1.7964513s
+  Parallel (3rd loop) multiplying matrices 1000x1000 with schedule(guided, 50) on 16 threads took 1.8255759s
+  Times saved in file 'matrices20250411140544\TimesSchedule_1000.txt'.
+  Parallel (3rd loop) multiplying matrices 2000x2000 with schedule(static, 50) on 2 threads took 15.5557063s
+  Parallel (3rd loop) multiplying matrices 2000x2000 with schedule(dynamic, 50) on 2 threads took 15.7716776s
+  Parallel (3rd loop) multiplying matrices 2000x2000 with schedule(guided, 50) on 2 threads took 16.7611038s
+  Parallel (3rd loop) multiplying matrices 2000x2000 with schedule(static, 50) on 4 threads took 15.5356209s
+  Parallel (3rd loop) multiplying matrices 2000x2000 with schedule(dynamic, 50) on 4 threads took 15.7602826s
+  Parallel (3rd loop) multiplying matrices 2000x2000 with schedule(guided, 50) on 4 threads took 16.5013600s
+  Parallel (3rd loop) multiplying matrices 2000x2000 with schedule(static, 50) on 8 threads took 16.0034724s
+  Parallel (3rd loop) multiplying matrices 2000x2000 with schedule(dynamic, 50) on 8 threads took 16.1578200s
+  Parallel (3rd loop) multiplying matrices 2000x2000 with schedule(guided, 50) on 8 threads took 16.6052326s
+  Parallel (3rd loop) multiplying matrices 2000x2000 with schedule(static, 50) on 16 threads took 15.5440438s
+  Parallel (3rd loop) multiplying matrices 2000x2000 with schedule(dynamic, 50) on 16 threads took 15.9746979s
+  Parallel (3rd loop) multiplying matrices 2000x2000 with schedule(guided, 50) on 16 threads took 16.7115287s
+  Times saved in file 'matrices20250411140544\TimesSchedule_2000.txt'.

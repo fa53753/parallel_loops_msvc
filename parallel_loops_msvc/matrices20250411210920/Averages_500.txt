@@ -1,0 +1,5 @@
+Averages for matrices 500x500:
+Loop	| Time
+#1	| 0.3391722
+#2	| 0.3437506
+#3	| 0.3429940

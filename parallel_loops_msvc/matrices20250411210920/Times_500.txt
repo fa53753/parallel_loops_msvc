@@ -1,0 +1,16 @@
+Multiplication times for matrices 500x500
+
+Type	| Thr	| Time [s]	| Diff [s]	| Verdict
+Seq	| 1	| 0.3490856	| -		| -
+ParL1	| 2	| 0.3353300	| 0.0137556	| faster
+ParL2	| 2	| 0.3363244	| 0.0127612	| faster
+ParL3	| 2	| 0.3500164	| -0.0009308	| slower
+ParL1	| 4	| 0.3390658	| 0.0100198	| faster
+ParL2	| 4	| 0.3512380	| -0.0021524	| slower
+ParL3	| 4	| 0.3469184	| 0.0021672	| faster
+ParL1	| 8	| 0.3468437	| 0.0022419	| faster
+ParL2	| 8	| 0.3398324	| 0.0092532	| faster
+ParL3	| 8	| 0.3349044	| 0.0141812	| faster
+ParL1	| 16	| 0.3354493	| 0.0136363	| faster
+ParL2	| 16	| 0.3476077	| 0.0014779	| faster
+ParL3	| 16	| 0.3401370	| 0.0089486	| faster

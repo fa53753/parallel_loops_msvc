@@ -1,0 +1,16 @@
+Multiplication times for matrices 1000x1000
+
+Type	| Thr	| Time [s]	| Diff [s]	| Verdict
+Seq	| 1	| 2.7118057	| -		| -
+ParL1	| 2	| 1.7202044	| 0.9916013	| faster
+ParL2	| 2	| 1.7039357	| 1.0078700	| faster
+ParL3	| 2	| 1.7095621	| 1.0022436	| faster
+ParL1	| 4	| 1.6933566	| 1.0184491	| faster
+ParL2	| 4	| 1.6993360	| 1.0124697	| faster
+ParL3	| 4	| 1.6920225	| 1.0197832	| faster
+ParL1	| 8	| 1.6978974	| 1.0139083	| faster
+ParL2	| 8	| 1.6978846	| 1.0139211	| faster
+ParL3	| 8	| 1.7050313	| 1.0067744	| faster
+ParL1	| 16	| 1.7300550	| 0.9817507	| faster
+ParL2	| 16	| 1.7345678	| 0.9772379	| faster
+ParL3	| 16	| 1.7171537	| 0.9946520	| faster
